@@ -1,0 +1,16 @@
+.nav {
+    width: 100%;
+    background-color: gray;
+    position: sticky;
+    z-index: 1;
+    line-height: 48px;
+    border-bottom: 2px solid black;
+} 
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+}
+
