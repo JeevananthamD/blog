@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, NavMenu } from "../styles/Navbar";
+import { NavLink, NavMenu } from "../styles/styled-component";
 
 import '../styles/Navbar.css';
 

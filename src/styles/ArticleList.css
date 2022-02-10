@@ -1,0 +1,16 @@
+
+.article-list-item {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+.article-list-item h3 {
+    padding-bottom: 10px;
+}
+
+.article-list-item p {
+    padding: 0;
+}

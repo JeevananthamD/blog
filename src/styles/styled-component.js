@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import { NavLink as Link } from "react-router-dom";
+import { NavLink as navLink, Link as link } from "react-router-dom";
 
-export const NavLink = styled(Link)`
-    /* max-height: 100%; */
+export const NavLink = styled(navLink)`
     text-decoration: none;
     cursor: pointer;
     display: flex;

@@ -6,8 +6,9 @@ import './App.css';
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ArticlePage from "./pages/ArticlePage";
-import ArticleList from "./pages/ArticleList";
+import ArticleListPage from "./pages/ArticleListPage";
 import Navbar from "./components/Navbar";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         <Routes>
           <Route exact path='/home' element={<HomePage />} />
           <Route exact path='/about' element={<AboutPage />} />
-          <Route exact path='/article' element={<ArticlePage />} />
-          <Route exact path='/article-list' element={<ArticleList />} />
-          <Route path='*' element={<Navigate to='/home' />} />
+          <Route exact path='/article-list' element={<ArticleListPage />} />
+          <Route exact path='/article/:name' element={<ArticlePage />} />
+          <Route exact path='/' element={<Navigate to='/home' />} />
+          <Route path='*' element={<NotFoundPage />} />
         </Routes>
       </div>
     </div>
