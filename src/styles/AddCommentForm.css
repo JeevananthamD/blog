@@ -1,0 +1,31 @@
+
+.commentForm {
+    padding: 10px 0;
+}
+
+.commentForm label {
+    display: block;
+    padding: 5px 0;
+}
+
+.commentForm input {
+    border: 1px solid black;
+    display: block;
+    margin-top: 5px;
+}
+
+.commentForm textarea {
+    border: 1px solid black;
+    display: block;
+    margin-top: 5px;
+}
+
+.commentForm button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background: black;
+    margin: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}

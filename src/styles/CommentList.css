@@ -1,0 +1,11 @@
+
+.comment {
+    display: block;
+    padding: 5px 0 0 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.comment h4 {
+    padding-bottom: 10px;
+}
